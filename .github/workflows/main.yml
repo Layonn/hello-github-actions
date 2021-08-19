@@ -12,4 +12,4 @@ jobs:
      - name: Execute action a
        uses: ./action-a
        with:
-       MY_NAME: "Layonn"
+       MY_NAME: 'Layonn'
