@@ -5,8 +5,10 @@ jobs:
   build:
     name: Hello world action
     runs-on: ubuntu-latest
+    
     steps:
-      uses: actions/checkout@v2
-      uses: ./action-a
-      with:
-        MY_NAME: "Layonn"
+     - name: Checkout repository
+       uses: actions/checkout@v2
+       uses: ./action-a
+       with:
+       MY_NAME: "Layonn"
