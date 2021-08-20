@@ -11,7 +11,9 @@ author: "layonn.alves@gmail.com"
   #runs:
     #using: "docker"
     #image: "Dockerfile"
-
+runs:
+    using: "docker"
+    image: "Dockerfile"
 #branding:
   #icon: "mic"
   #color: "purple"
